@@ -1,0 +1,34 @@
+{
+  "name": "gendiff-di122",
+  "version": "1.0.0",
+  "description": "Compares two configuration files and shows a difference.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/di122/backend-project-lvl2.git"
+  },
+  "author": "di122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/di122/backend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/di122/backend-project-lvl2#readme",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  },
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
+}
