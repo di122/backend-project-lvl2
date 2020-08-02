@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 import program from 'commander';
 
 program
@@ -7,4 +6,7 @@ program
   .arguments('<firstConfig> <secondConfig>')
   .description('Compares two configuration files and shows difference')
   .option('-f, --format [type]', 'Output formats: standard, plain, json')
+  .action((firstConfig, secondConfig) => (
+    console.log(genDiff(firstConfig, secondConfig, program.format))
+  ))
   .parse(process.argv)
