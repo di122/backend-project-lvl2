@@ -1,6 +1,6 @@
-import standard from './renderStandard';
-import plain from './renderToPlain';
-import json from './renderToJson';
+import standard from './renderStandard.js';
+import plain from './renderToPlain.js';
+import json from './renderToJson.js';
 
 const outputFormats = {
   standard,

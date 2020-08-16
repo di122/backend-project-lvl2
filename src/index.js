@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import parse from './parsers';
-import createAst from './createAst';
-import render from './renderers';
+import parse from './parsers.js';
+import createAst from './createAst.js';
+import render from './renderers/index.js';
 
 const genDiff = (pathFile1, pathFile2, outputFormat = 'standard') => {
   const dataFile1 = fs.readFileSync(pathFile1, 'utf-8');
