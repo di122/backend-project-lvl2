@@ -1,5 +1,5 @@
 const fs = require('fs');
-import genDiff from '../src/index.js';
+const genDiff = require('../src/index.js');
 
 const formatsFile = [
   ['simple', 'standard', 'json'],
