@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 import genDiff from '../src/';
 
 const formatsFile = [
