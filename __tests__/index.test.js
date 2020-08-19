@@ -1,5 +1,5 @@
 import fs from 'fs';
-import genDiff from '../src';
+import genDiff from '../src/';
 
 const formatsFile = [
   ['simple', 'standard', 'json'],
