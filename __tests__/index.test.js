@@ -1,5 +1,7 @@
-const { fs } = require('fs');
-const { genDiff } = require('../src/index.js');
+import { test, expect } from '@jest/globals';
+import fs from 'fs';
+import path from 'path';
+import gendiff from '../src/index.js';
 
 const formatsFile = [
   ['simple', 'standard', 'json'],
