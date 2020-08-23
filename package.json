@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "test-coverage": "jest --coverage"
+    "test-coverage": "jest --coverage",
+    "eslint": "eslint"
   },
   "bin": {
     "gendiff": "bin/gendiff.js"

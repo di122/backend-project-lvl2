@@ -1,5 +1,5 @@
-const fs = require('fs');
-const {genDiff} = require('../src/index.js');
+const { fs } = require('fs');
+const { genDiff } = require('../src/index.js');
 
 const formatsFile = [
   ['simple', 'standard', 'json'],

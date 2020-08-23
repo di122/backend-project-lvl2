@@ -3,8 +3,10 @@ install:
 publish:
 	npm publish
 run:
-	src/bin/gendiff.js
+	bin/gendiff.js
 lint:
 	npx eslint .
 test:
 	npm test
+test-coverage:
+	npm test -- --coverage --coverageProvider=v8
