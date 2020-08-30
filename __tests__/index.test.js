@@ -1,7 +1,6 @@
-import { test, expect } from '@jest/globals';
 import fs from 'fs';
 import path from 'path';
-import gendiff from '../src/index.js';
+import genDiff from '../src/index.js';
 
 const formatsFile = [
   ['simple', 'standard', 'json'],
