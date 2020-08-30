@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "Compares two configuration files and shows a difference.",
   "main": "index.js",
-  "type": "module",
-  "jest": {
-    "testEnvironment": "node",
-    "transform": {}
-  },
   "scripts": {
     "test": "jest",
-    "test-coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "eslint": "eslint"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "bin": {
     "gendiff": "src/bin/gendiff.js"
@@ -30,11 +29,11 @@
   },
   "homepage": "https://github.com/di122/backend-project-lvl2#readme",
   "devDependencies": {
-    "eslint": "^7.3.1",
+    "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
     "fs": "0.0.1-security",
-    "jest": "^26.0.1"
+    "jest": "^26.4.2"
   },
   "dependencies": {
     "@jest/globals": "^26.0.1",
