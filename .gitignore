@@ -2,3 +2,7 @@
 *.log
 dist
 coverage
+.DS_Store
+.eslintignore
+.eslintrc.js
+.gitignore
